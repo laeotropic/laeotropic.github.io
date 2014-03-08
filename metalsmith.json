@@ -1,0 +1,12 @@
+{
+  "source": "_src",
+  "destination": ".",
+  "plugins": {
+    "metalsmith-markdown": true,
+    "metalsmith-permalinks": ":path",
+    "metalsmith-templates": {
+      "engine": "handlebars",
+      "directory": "_tmpl"
+    }
+  }
+}
